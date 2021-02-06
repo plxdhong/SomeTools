@@ -35,6 +35,20 @@
 
 3. 运行
 
+### 冶金时长修改
+
+这是一个用于跳过某冶金网站实习学习的脚本。使用方法：
+
+1. 修改yejing.js中的
+
+   ```javascript
+   $.get("/Training/Learn/GetInteracts.ashx", { action: "Zhengdian", Key: Key, Cime: 2, Code: code }, function (jindu) {
+   ```
+
+   中的Cime:2，将起修改与Cime:*你想要的时间*。
+
+2. 复制到网站学习界面的控制台粘贴执行。显示成功即可。
+
 ## 贡献
 
 ### 提交bug
